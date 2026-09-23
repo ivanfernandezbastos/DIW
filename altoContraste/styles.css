@@ -27,7 +27,7 @@
   /* ---- 2. COLOR DE FONDO ALTERNO ----
      Para secciones que quieres diferenciar del fondo general
      (ver clase .seccion--alterna en el HTML). */
-  --color-fondo-alterno: #372F2F;
+  --color-fondo-alterno: #0f0d0d;
 
   /* ---- 3. COLOR DE FONDO DE BLOQUES / TARJETAS ----
      El fondo de las tarjetas de producto y del bloque destacado. */
@@ -37,13 +37,13 @@
   /* ---- 4. COLOR DE TEXTO ----
      Texto principal y texto secundario (más apagado, para descripciones). */
   --color-texto: #fff;
-  --color-texto-secundario: #a3a3a3;
+  --color-texto-secundario: #d6d6d6;
 
   /* ---- 5. COLOR DE BOTONES ----
      Botón primario (la acción principal) y su estado al pasar el ratón,
      más el botón secundario (acción menos importante). */
   --color-boton-primario: #000;
-  --color-boton-primario-hover: #9B111E;
+  --color-boton-primario-hover: #707070;
   --color-boton-texto: #fff;
 
   --color-boton-secundario: transparent;
