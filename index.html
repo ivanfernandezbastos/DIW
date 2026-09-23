@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trajes Sr Elegante</title>
+
+  <!-- Tipografías de Google Fonts: cambia estos nombres por otras que quieras
+       probar. Busca más en https://fonts.google.com y sustituye tanto el
+       enlace de aquí como las variables --font-heading / --font-body en
+       styles.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===================== CABECERA ===================== -->
+  <header class="cabecera">
+    <div class="contenedor cabecera__interior">
+      <p class="marca">Trajes Sr Elegante</p>
+        <nav class="navegacion" aria-label="Navegación principal">
+          <ul>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>      
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="contenedor hero__contenido">
+        <h1>Un traje con estilo, tu mejor amigo</h1>
+        <p class="hero__texto">
+          Creamos trajes a medida, vendemos trajes de diferentes
+          estilos y tamaños. Pida algo y veremos que podemos hacer.
+        </p>
+        <div class="hero__acciones">
+          <button class="boton boton--primario">Ver el menú</button>
+          <button class="boton boton--secundario">Cómo llegar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BLOQUES / TARJETAS ===================== -->
+    <section id="productos" class="seccion seccion--alterna">
+      <div class="contenedor">
+        <h2>Lo que creamos</h2>
+        <div class="rejilla-tarjetas">
+
+          <article class="tarjeta">
+            <h3>Tipos de trajes</h3>
+            <p>
+              Tenemos una variada selección de traje, eliga el que más le guste
+            </p>
+            <button class="boton boton--primario">Ver variedades</button>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Trajes hechos previamente</h3>
+            <p>
+              Para que conozca nuestro trabajo le dejamos aquí muestras de 
+              nuestros trabajos previos
+            </p>
+            <button class="boton boton--primario">Ver catálogo</button>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Traje a medida</h3>
+            <p>
+              Creamos trajes a medida para todo tipo de ocasiones, comentenos
+              su situación y crearemos algo algo que se adapte a sus necesidades.
+            </p>
+            <button class="boton boton--primario">Solicitar presupuesto</button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE NOSOTROS ===================== -->
+    <section id="nosotros" class="seccion">
+      <div class="contenedor seccion__dos-columnas">
+        <div>
+          <h2>Sobre nosotros</h2>
+          <p>
+            Somos un obrador familiar con más de cien años en el oficio.
+            Creemos en que un buen traje puede acompañarlo toda una vida.
+          </p>
+        </div>
+        <aside class="destacado">
+          <p>
+            &ldquo;Hacemos trajes como antes con tiempo,
+            trabajo duro y las mejores telas.&rdquo;
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto" class="seccion seccion--alterna">
+      <div class="contenedor seccion--centrada">
+        <h2>Visítanos</h2>
+        <p>Calle de la Tela, 12 · Abierto de martes a domingo, 4:00–23:00</p>
+        <button class="boton boton--primario">Hacer un pedido</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer class="pie">
+    <div class="contenedor">
+      <p>&copy; 2026 Trajes Sr Elegante.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
