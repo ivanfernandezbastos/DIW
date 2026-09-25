@@ -9,7 +9,9 @@ body {
   color: #222;
 }
 
-h1 { font-size: 1.8em; }
+h1 {
+  font-size: 1.8em;
+}
 
 h2 {
   font-size: 1.3em;
@@ -18,7 +20,9 @@ h2 {
   padding-bottom: 4px;
 }
 
-section { margin-bottom: 2em; }
+section {
+  margin-bottom: 2em;
+}
 
 /* ===================== 1. BARRA DE ICONOS ===================== */
 
@@ -38,12 +42,29 @@ section { margin-bottom: 2em; }
   color: #333;
   font-size: 1.2em; /* tamaño de TODOS los iconos: cámbialo aquí para afectarlos a todos por igual */
   text-decoration: none;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
 }
 
 .icono:hover {
-  background-color: #2F6F4F;
+  background-color: #2f6f4f;
   color: #ffffff;
+}
+
+.github:hover {
+  background-color: #24292e;
+  color: #ffffff;
+}
+
+.discord:hover {
+  background-color: #7289da;
+  color: white;
+}
+
+.youtube:hover {
+  background-color: white;
+  color: #ff0000;
 }
 
 /* ===================== 2. REGLA DE LOS TERCIOS ===================== */
@@ -82,12 +103,28 @@ section { margin-bottom: 2em; }
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(to right,
-      transparent calc(33.333% - 1px), red calc(33.333% - 1px), red calc(33.333% + 1px), transparent calc(33.333% + 1px),
-      transparent calc(66.666% - 1px), red calc(66.666% - 1px), red calc(66.666% + 1px), transparent calc(66.666% + 1px)),
-    linear-gradient(to bottom,
-      transparent calc(33.333% - 1px), red calc(33.333% - 1px), red calc(33.333% + 1px), transparent calc(33.333% + 1px),
-      transparent calc(66.666% - 1px), red calc(66.666% - 1px), red calc(66.666% + 1px), transparent calc(66.666% + 1px));
+    linear-gradient(
+      to right,
+      transparent calc(33.333% - 1px),
+      red calc(33.333% - 1px),
+      red calc(33.333% + 1px),
+      transparent calc(33.333% + 1px),
+      transparent calc(66.666% - 1px),
+      red calc(66.666% - 1px),
+      red calc(66.666% + 1px),
+      transparent calc(66.666% + 1px)
+    ),
+    linear-gradient(
+      to bottom,
+      transparent calc(33.333% - 1px),
+      red calc(33.333% - 1px),
+      red calc(33.333% + 1px),
+      transparent calc(33.333% + 1px),
+      transparent calc(66.666% - 1px),
+      red calc(66.666% - 1px),
+      red calc(66.666% + 1px),
+      transparent calc(66.666% + 1px)
+    );
   opacity: 0.6;
 }
 
